@@ -1,0 +1,12 @@
+---
+- name: Deploy banner-tomcat systemd unit file.
+  template:
+    src: banner-tomcat.service.j2
+    dest: /etc/systemd/system/automatic.conf
+
+- name: Start and enable systemd unit.
+  service:
+    name: banner-tomcat.service
+    state: started
+    enabled: yes
+

@@ -1,0 +1,21 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: banner-tomcat
+  author: Aidan Richmond
+  description: Auto start banner tomcat on boot.
+  company: "University of Leeds"
+  license: "license (MIT)"
+  platforms:
+    - name: EL
+      versions:
+        - 8
+  galaxy_tags:
+    - banner
+    - systemd
+    - rhel
+    - tomcat
+
+allow_duplicates: true
+
